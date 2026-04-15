@@ -10,7 +10,7 @@ CREATE DATABASE users_database;
 USE users_database; 
 
 CREATE TABLE users(
-	id_user INT PRIMARY KEY,
+	id_user INT AUTO_INCREMENT PRIMARY KEY,
     name_user VARCHAR(100) NOT NULL,
 	phone INT 
 
